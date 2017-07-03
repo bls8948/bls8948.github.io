@@ -1,0 +1,30 @@
+#me {
+	
+	height:120px;
+	width:110px;
+	margin-top:50px;
+	border:solid #000000;
+    border-radius:50%;
+    transition: all .5s;
+    border-padding:30px;
+    position:relative;
+  	left:45%;
+  	display:block;
+   
+
+	
+}
+#me:hover {
+	transform: scale(1.2) rotate(360deg);
+}
+header {
+	background-color:black;
+	color:white;
+	width:100%;
+	padding:8px;
+	margin-left:-8px;
+	margin-top:-8px;
+}
+footer {
+	background-color:#999999;
+}

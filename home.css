@@ -1,0 +1,236 @@
+/*This is the css for the main home page, example home page, about home page and resume home page*/
+html {
+	color:black;
+	background-color: #001414;
+    background-image:url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    background-attachment: fixed;*/
+
+}
+#me {
+	
+	height:90px;
+	width:90px;
+	margin:20px 10px 0px 20px;
+	float:left;
+	border:solid #A7A37E;
+    border-radius:50%;
+    transition: all .5s;
+    border-padding:30px;
+
+	
+}
+#me:hover {
+	transform: scale(1.2) rotate(360deg);
+	
+}
+#homeBanner {
+	font-size:30px;
+	font-family:'Rock Salt', cursive;
+	display:block;
+
+}
+
+.homeHeader {
+	border:3px solid black;
+	border-radius:20px;
+	background-image:-webkit-linear-gradient(bottom, #A7A37E 10%, #046380 30%);
+    box-shadow:inset 1px 1px 4px black;
+ 
+}
+
+.intro {
+	text-decoration:none;
+	color:white;
+	padding-left:60px;
+		  font-family:'Indie flower', cursive;
+}
+.pages {
+  border:1px solid black;
+  border-radius:10px;
+  background-color:#046380;
+  width:100px;
+  display:inline-block;
+  box-shadow: 3px 3px 6px black;
+  text-align:center;
+  color:white;
+  transition: all;
+  text-decoration:none;
+  font-family:'Indie flower', cursive;
+  margin-left:4px;
+}
+.pages:hover {
+	transform: scale(1.2);
+	text-shadow:black 2px 2px 3px;
+}
+
+#homeSection {
+	background-color: #E6E2AF;
+	margin-left:17px;
+	margin-right:17px;
+
+
+
+} 
+footer {
+
+	background-color:#001414;
+	border:3px solid black;
+	border-radius:10px;
+	padding:30px;
+	text-align:center;
+	padding-bottom:0px;
+}
+.social-media {
+	height:30px;
+	border:solid transparent;
+	border-radius:10px;
+	object-position: center;
+	padding-bottom:0px;
+	padding-top:0px;
+	text-align: right;
+	margin-bottom:0px;
+	margin-top:0px;
+
+
+}
+#follow {
+	margin-bottom:-20px;
+	padding:0px;
+}
+.social-media:hover {
+	transform:scale(1.1);
+
+
+}
+#homeFooter {
+	background-color:#001414;
+	border:3px solid black;
+	text-align:center;
+	padding-bottom:0px;
+	font-family:'Rock Salt', cursive;
+	color:white;
+	margin-top: 0px;
+	margin-bottom:20px;
+	text-align:center;
+	border-radius:20px;
+}
+.return {
+	float:right;
+	font:15px;
+	color:black;
+	text-decoration:none;
+	margin-bottom:-9px;
+	margin-top:-2px;
+
+
+}
+.return:hover {
+	color:darkgrey;
+
+
+}
+
+.content {
+	padding:40px;
+    border: 1px ridge #046380;
+    border-width: 3px 0px 3px 0px;
+    border-radius: 10px;
+   margin-left:150px;
+    margin-top:50px;
+	width:20%;
+	height:100%;
+	display:inline-block;
+    font-family:'Indie flower', cursive;
+	font-size:18px;
+	color:#046380;
+
+	
+}
+.p2 {
+	padding-top:40px;
+}
+#lego {
+	display:block;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+#offer {
+	font-family: 'Courgette', cursive;
+	color:#046380;
+	font-size:20px;
+	margin:80px 60px 0px 60px;
+	padding:0px 40px 0px 40px;
+	text-align: center;
+	border:3px solid #046380;
+	border-radius: 10px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width:2``````````````````AAApx;
+}
+
+.exampleHeader {
+	border:solid black 2px;
+	margin:600px;
+}
+.exampleTop {
+	color: blue;
+	background-image:-webkit-linear-gradient(bottom, #A7A37E 15%, #046380 35%);
+position:fixed;
+display:absolute;
+top:0px;
+left:0px;
+width:100%;
+padding-bottom:0px;
+padding-top:0px;
+margin-left:0px;
+
+}
+.exampleH2 {
+	font-family: 'Indie FLower', cursive;
+	color:#a7a37e;
+	font-size:20px;
+	padding-left:10px;
+}
+.exampleButtons {
+	margin-left:0px;
+	border-radius:0;
+	padding-top:0px;
+}
+.examplebuttons:hover {
+	transform: scale(1.2);
+	text-shadow:black 2px 2px 3px;
+}
+.exampleHead {
+	margin:300px;
+
+}
+#exampleBody {
+	background-color:white;
+	padding-top:100px;
+	margin:0px 20px 100px 20px;
+	border-radius:10px;
+
+}
+#backHome {
+position: fixed;
+right:1px;
+top:auto;
+bottom:200px;
+color:white;
+text-align:center;
+text-decoration: none;
+
+
+}
+#home {
+	width:40px;
+	height:auto;
+	border-radius:30px;
+	border:solid black 1px;
+	padding:0px;
+}
+
+#exampleBody {
+	background-color:#d3c8b7;
+}

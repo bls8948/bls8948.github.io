@@ -1,0 +1,92 @@
+/*This is CSS for the Example #1 page*/
+html {
+	background-color: white;
+background-image: url("https://www.transparenttextures.com/patterns/fabric-of-squares.png");
+font-family: 'Playfair', cursive;
+}
+.placeimg {
+border:solid 1px black;
+    display:block;
+    margin: 0 auto;
+	border-radius:90%;\
+background-image:url("https://cdn.pixabay.com/photo/2015/03/26/10/25/trees-691292_960_720.jpg");
+
+}
+.Header1 {
+	background-image:url("http://placeimg.com/900/200/arch?t=1491945720834");
+	background-size:cover;
+	background-position: center;
+	padding:20px 0px 0px 0px;
+	margin:-8px -8px 0px -8px;
+	border:solid 2px black;
+	border-width:0px 0px 1px 0px;
+}
+.tags {
+	text-align: center;
+	padding-bottom: 0px;
+	color:white;
+	margin:3px 0px;
+}
+body {
+	padding:0px;
+}
+section {
+	background-color: white;
+	margin:0px 30px;
+	
+}
+.icons {
+	width:30px;
+	border-radius:5px;
+
+}
+.icons:hover {
+	transform: scale(1.2);
+}
+#ul1 {
+	font-style: italic;
+
+}
+#li1 {
+	list-style-type: decimal;
+	margin-top:4px;
+
+}
+#li2 {
+	list-style-type: circle;
+}
+#li3 {
+	list-style-type: disc;
+}
+#li4 {
+	list-style-type: square;
+}
+#li5 {
+	list-style-image: url('http://www.thefanclub.com/img/emoji/emoji-E120.png');
+}
+.nextPage {
+	color:black;
+	text-decoration:none;
+}
+.nextPage:visited {
+	color:black;
+}
+table,th,td {
+border:1px solid black;
+border-collapse: separate;
+background-color:#cec2b5;
+margin-left: 17px;
+}
+h2 {
+position:absolute;
+top:0px;
+right:440px;
+color:white;
+font-family:'Molle', cursive;
+font-size:30px;
+
+
+}
+h4 {
+	font-family:'Molle',cursive;
+}

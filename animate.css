@@ -1,0 +1,29 @@
+.pizza {
+	width:15%;
+	transition:1s;
+
+}
+html {
+	background-color:blue;
+}
+.pizza:hover {
+	
+	transform: rotate(360deg);
+	transform: url(C:\Users\bls89\Downloads\pizzzaaa.png);
+
+}
+footer {
+	background-color:black;
+	color:#676262;
+	padding-bottom:50px;
+	margin-left:-8px;
+	margin-right:-8px;
+}
+#homeButton {
+	position:absolute;
+	right:50%;
+	color:#676262;
+	font-size:15px;
+	text-decoration:none;
+	padding-top:15px;
+}
